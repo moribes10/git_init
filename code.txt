@@ -1,9 +1,15 @@
 git init 初期化
+下のコードはオリジンの追加
+git remote add origin https://github.com/moribes10/git_init.git
 
+以下はバージョンの管理（初回も含む）
 git add file name
 git commit
 
 gitのブラウザ上で新規に作成
 or pushの部分のコードを実行
-git remote add origin https://github.com/moribes10/git_init.git
+
+
+
+基本的にこの下のコードで追加ができる（多分）
  git push -u origin master
