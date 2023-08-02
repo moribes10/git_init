@@ -13,3 +13,9 @@ or pushの部分のコードを実行
 
 基本的にこの下のコードで追加ができる（多分）
  git push -u origin master
+
+gitの状況
+git status
+
+変更の履歴
+git log
