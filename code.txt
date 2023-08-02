@@ -1,0 +1,9 @@
+git init 初期化
+
+git add file name
+git commit
+
+gitのブラウザ上で新規に作成
+or pushの部分のコードを実行
+git remote add origin https://github.com/moribes10/git_init.git
+ git push -u origin master
