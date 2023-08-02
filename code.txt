@@ -4,7 +4,7 @@ git remote add origin https://github.com/moribes10/git_init.git
 
 以下はバージョンの管理（初回も含む）
 git add file name
-git commit
+git commit -v
 
 gitのブラウザ上で新規に作成
 or pushの部分のコードを実行
