@@ -10,9 +10,9 @@ gitのブラウザ上で新規に作成
 or pushの部分のコードを実行
 
 
-
+git_initディレクトリで実行
 基本的にこの下のコードで追加ができる（多分）
-git commit 
+git commit -m "メッセージ" 
  git push -u origin master
 
 gitの状況
