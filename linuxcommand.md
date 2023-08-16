@@ -1,4 +1,4 @@
-linux
+# linux
 コマンド
 ls
 cd 
@@ -61,4 +61,19 @@ ls /hoge > output.txt 2>&1
 リダイレクトの追記 2つ重ねると追記
 echo Hello!! >> output.txt
 
+* /dev/null
+ブラックホールだね．結果の出力先として指定することが多く，結果を非表示にしたいときに使用する．
+例：ls > /dev/null
+ちなみにls /hoge > /dev/nullはエラーなので出力される
+ls /hoge 2> /dev/nullは出力されなくなる
+
+### パイプライン
+|を使う
+* ls/bin | less
+* ls/bin | grep systemd | less
 ## パーミッション
+ls -lで確認ができる
+オーナーとグループが見える（自分のubuntu内だとmoribe moribe）
+ls -l /bin/lessだとroot,root
+
+cat /etc/passwdで全ユーザのidが見れる
